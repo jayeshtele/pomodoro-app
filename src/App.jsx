@@ -9,14 +9,17 @@ export default function App() {
       <h1 className="heading text-6xl font-bold tracking-[1rem] text-[#F4EDDB] mb-[5rem]">
         POMODORO APP
       </h1>
+
       <div className="navbar text-white space-x-[2rem]">
         <NavLink className="text-xl font-bold inline-block" to="/">Focus Time</NavLink>
         <NavLink className="text-xl font-bold inline-block" to="/short">Short Break</NavLink>
       </div>
+
       <Routes>
         <Route index element={<Focus />} />
         <Route path="short" element={<ShortBreak />} />
       </Routes>
+      
     </div>
   );
 }

@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --qwitcher: 'Qwitcher Grypen', cursive;
+  --montserrat: 'Montserrat', sans-serif;
+}
 
 * {
   padding: 0;
@@ -9,4 +16,15 @@
 
 body {
   box-sizing: border-box;
+  font-family: var(--montserrat);
+}
+
+.heading {
+  font-family: var(--qwitcher);
+}
+.active{
+  background-color: white;
+  color: #270000;
+  padding: 10px 20px;
+  border-radius: 100px;
 }

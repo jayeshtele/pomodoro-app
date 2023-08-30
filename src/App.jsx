@@ -10,7 +10,7 @@ export default function App() {
 
       <Login />
 
-      <h1 className="heading mb-[5rem] text-6xl font-bold tracking-[1rem] text-[#F4EDDB]">
+      <h1 className="heading mb-[5rem] text-6xl font-bold tracking-[1rem] text-center text-[#F4EDDB]">
         POMODORO APP
       </h1>
 
